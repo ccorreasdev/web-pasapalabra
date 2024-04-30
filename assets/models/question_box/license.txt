@@ -1,0 +1,11 @@
+Model Information:
+* title:	Question Box
+* source:	https://sketchfab.com/3d-models/question-box-bbf45f32a35b471cac14043f5da484e8
+* author:	nickheitzman (https://sketchfab.com/nickheitzman)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Question Box" (https://sketchfab.com/3d-models/question-box-bbf45f32a35b471cac14043f5da484e8) by nickheitzman (https://sketchfab.com/nickheitzman) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
