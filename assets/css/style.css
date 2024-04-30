@@ -29,8 +29,12 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
     font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../img/plato.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
 }
-
 
 
 
@@ -38,7 +42,6 @@ body {
 .layout {
     width: 100%;
     min-height: 100dvh;
-    background: linear-gradient(45deg, var(--bg-color-1) 0% 25%, var(--bg-color-2) 25% 50%,var(--bg-color-3) 50% 75%,var(--bg-color-4) 75% 100%);
     color: var(--text-color);
     position: relative;
     overflow: hidden;
@@ -53,13 +56,75 @@ body {
     height: 100dvh;
     min-height: 100dvh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     z-index: 2;
     padding: 5rem;
    
 }
+
+.letra {
+    width: 400px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.473);
+    text-align: center;
+    font-size: 3rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.question {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0), -2px -2px 4px rgba(255, 255, 255, 0.5), 0 0 6px rgba(114, 114, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.respuesta {
+    width: 400px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0), -2px -2px 4px rgba(255, 255, 255, 0.5), 0 0 6px rgba(114, 114, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.473);
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.respuesta__btn {
+    width: 100px;
+    height: 50px;
+    background-color: var(--bg-color-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.respuesta__btn:hover {
+    background-color: var(--bg-color-1);
+}
+
+.respuesta__input{
+    width: 100%;
+    height: 50px;
+    z-index: 200;
+    pointer-events: all;
+    font-size: 3rem;
+    text-align: center;
+} 
 
 .canvas {
     position: absolute;
@@ -68,6 +133,6 @@ body {
     width: 100%;
     height: 100%;
     z-index: 99;
-    pointer-events: all;
+    pointer-events: none;
 }
 
