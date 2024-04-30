@@ -9,6 +9,10 @@
     --primary-color: #61697B;
     --secondary-color: #381C47;
     --secondary-color-a: rgba(56, 28, 71, 0.4);
+    --bg-color-1:#0992a4 ; 
+    --bg-color-2: #0a61d4;
+    --bg-color-3: #313a45;
+    --bg-color-4: #252f38;
 }
 
 * {
@@ -34,7 +38,7 @@ body {
 .layout {
     width: 100%;
     min-height: 100dvh;
-    background: linear-gradient(45deg, #09a45b 0% 25%, #0ad476 25% 50%,#313a45 50% 75%,#252f38 75% 100%);
+    background: linear-gradient(45deg, var(--bg-color-1) 0% 25%, var(--bg-color-2) 25% 50%,var(--bg-color-3) 50% 75%,var(--bg-color-4) 75% 100%);
     color: var(--text-color);
     position: relative;
     overflow: hidden;
@@ -64,6 +68,6 @@ body {
     width: 100%;
     height: 100%;
     z-index: 99;
-    pointer-events: none;
+    pointer-events: all;
 }
 
